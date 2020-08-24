@@ -122,3 +122,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 # hw19employee-directory
+
+# Notes
+* Cannot get Jest to work.  Need TA/Instructor assistance.  Building app more due to time needed to finish homework.
