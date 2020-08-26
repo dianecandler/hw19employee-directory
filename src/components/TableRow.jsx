@@ -1,8 +1,9 @@
 import React from 'react'
 
 export default function TableRow(props) {
+    let id = 0;
     return (
-        <tr key={props.key}>
+        <tr key={id++}>
             <td style={{textAlign: 'center'}}>
                 <img src={props.img} alt={props.fn}/>
             </td>
@@ -21,3 +22,4 @@ export default function TableRow(props) {
         </tr>
     )
 }
+
