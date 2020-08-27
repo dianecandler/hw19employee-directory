@@ -1,0 +1,20 @@
+tr:nth-child(even) {background-color: #f2f2f2;}
+tr:hover {background-color: darkgray; color: white; font-weight: bold;}
+th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 5px;
+    border-left: none;
+    border-right: none;
+  }
+thead {
+    font-size: 1.4em;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+table {
+    border-spacing: 0 !important;
+}
+button {
+    margin: 5px;
+    padding: 5px 10px;
+}

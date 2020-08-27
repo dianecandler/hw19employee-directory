@@ -14,7 +14,9 @@ export default function TableRow(props) {
                 {props.phone}
             </td>
             <td style={{textAlign: 'center'}}>
+                <a href={props.email}>
                 {props.email}
+                </a>
             </td>
             <td style={{textAlign: 'center'}}>
                 {props.dob}

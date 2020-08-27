@@ -9,3 +9,7 @@ test('renders Employee Directory link', () => {
   const linkElement = getByText(/Employee Directory/i);
   expect(linkElement).toBeInTheDocument();
 });
+test('renders without crashing', () => {
+  const table = document.createElement('table');
+  render(<App />, table);
+});
