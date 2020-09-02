@@ -6,11 +6,11 @@ import TableRow from "./TableRow";
 let number = 0;
 
 export default class Table extends Component {
-    // use hooks in next line to simplify code
+    // could use hooks to simplify code
     state = {
         employees: data
     }
-    //  search by function - user search
+    //  search by function - user search - use fat arrow function in order to bind for "this" or at end use .bind(this) instead
     search = event => {
         let userSearcher = event.target.value;
         console.log(userSearcher);
@@ -94,7 +94,9 @@ export default class Table extends Component {
                 });
 
         }
-
+        // this.setState handles migration of state data and accepts object
+        // render each time to change state
+        // use the this. to "bind" to class
         this.setState({
             employees: dobData
         })
