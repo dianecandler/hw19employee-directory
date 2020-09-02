@@ -1,8 +1,15 @@
 # Unit 19 React Homework: Employee Directory - Test Driven Development
 
+# Links
+* Heroku:  (https://hw19employee-directory.herokuapp.com/)
+* GitHub:  (https://github.com/dianecandler/hw19employee-directory)
+
 ## Overview
 
 Create a employee directory with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.
+
+# Image
+![main page employee directory](/public/employdir.png)
 
 ## User Story
 
