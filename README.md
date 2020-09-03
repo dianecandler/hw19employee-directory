@@ -11,6 +11,9 @@ Create a employee directory with React. This assignment will require you to brea
 # Image
 ![main page employee directory](/public/employdir.png)
 
+
+![Circle CI test](/public/test.png)
+
 ## User Story
 
 * As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
