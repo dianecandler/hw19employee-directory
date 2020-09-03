@@ -12,7 +12,7 @@ Create a employee directory with React. This assignment will require you to brea
 ![main page employee directory](/public/employdir.png)
 
 
-![Circle CI test](/public/test.png)
+![Circle CI](/public/test.png)
 
 ## User Story
 
