@@ -1,4 +1,4 @@
-# Unit 19 React Homework: Employee Directory - Test Driven Development
+# Employee Directory - React with Test Driven Development
 
 # Links
 * Heroku:  (https://hw19employee-directory.herokuapp.com/)
@@ -6,11 +6,18 @@
 
 ## Overview
 
-Created a employee directory with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.
+* Created a employee directory with React. 
+* Broke application's UI into components, manage component state, and respond to user events.
+* Added filters to allow data sorting by name and data of birth. (Table.jsx)
+* Data is provided in the data.json file.
 
 # Image
 ![main page employee directory](public/employdir.png)
 
+
+## Test Driven Design 
+
+npm run test :test: will start tests. Found Ken C. Dodds materials helpful.
 
 ![Circle CI](public/test.png)
 
