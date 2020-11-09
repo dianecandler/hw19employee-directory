@@ -7,19 +7,21 @@
 ## Overview
 
 * Created a employee directory with React. 
-* Broke application's UI into components, manage component state, and respond to user events.
-* Added filters to allow data sorting by name and data of birth. (Table.jsx)
+* Found React ideally suited as wanted to divide application's UI into components, manage component state, and respond to user events.
+* Added filters to allow data sorting by name and data of birth. (see file named `Table.jsx`)
 * Data is provided in the data.json file.
 
-# Image
+# Sneak peek at the application!
 ![main page employee directory](public/employdir.png)
 
 
 ## Test Driven Design 
 
-npm run test :test: will start tests. Found Ken C. Dodds materials helpful.
+:traffic_light: To start test:  `npm run test`
+* Found Ken C. Dodds materials helpful.
+* Pipelines readout from Circle CI below.
 
-![Circle CI](public/test.png)
+![](public/testing.JPG)
 
 ## User Story
 
@@ -34,11 +36,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### `npm start`
 
-Runs the app in the development mode.<br />
+Runs the application.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
 
 # Thank you
